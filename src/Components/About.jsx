@@ -123,11 +123,11 @@ const About = () => {
                 Contact Details
               </h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Website:</strong> <a href="https://yourwebsite.com" className="text-blue-600 underline">yourwebsite.com</a></li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Phone:</strong> +123-456-7890</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>City:</strong> Your City</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Qualification:</strong> Your Qualification</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Email:</strong> <a href="mailto:your.email@example.com" className="text-blue-600 underline">your.email@example.com</a></li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/midhun-t-/" className="text-blue-600 underline">https://www.linkedin.com/in/midhun-t-/</a></li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Phone:</strong> 7994099023</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>City:</strong> Calicut</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Qualification:</strong> BCA</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Email:</strong> <a href="midhunofficial7994@gmail.com" className="text-blue-600 underline">midhunofficial7994@gmail.com</a></li>
                 <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Freelance:</strong> Available for freelance projects</li>
               </ul>
             </div>

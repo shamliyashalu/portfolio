@@ -15,7 +15,7 @@ const Contact = () => {
   };
 
   const sendMail = (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
 
     const serviceID = 'service_0n1o8ve'; // Replace with your actual Service ID
     const templateID = 'template_t368e9i'; // Replace with your actual Template ID
@@ -23,10 +23,10 @@ const Contact = () => {
 
     const templateParams = {
       from_name: formData.name,
-      from_email: formData.email,  // Include sender's email
-      subject: formData.subject,    // Include subject
+      from_email: formData.email,  
+      subject: formData.subject,    
       message: formData.message,
-      to_name: 'Recipient Name'     // You can set this to a specific recipient or leave it empty if managed by EmailJS
+      to_name: 'Recipient Name'    
     };
 
     emailjs.send(serviceID, templateID, templateParams, userID)

@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import './typing.css'; // Import the CSS file
+import './typing.css'; 
 
 const Home = () => {
   const [step, setStep] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setStep((prevStep) => (prevStep + 1) % 3); // Cycle through 3 steps
-    }, 8000); // Change text every 8 seconds
+      setStep((prevStep) => (prevStep + 1) % 3); 
+    }, 7000); 
     return () => clearInterval(timer);
   }, []);
 
   return (
     <section id='home'>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white px-4 sm:px-6 md:px-8 lg:px-12">
-      <img
-        src="/public/Profile.jpeg"
+      <img 
+        src="/Profile.jpeg"
         alt="Your Name"
         className="w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 rounded-full object-cover mb-6"
       />

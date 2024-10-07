@@ -129,7 +129,7 @@ const Skills = () => {
     
 
 
-      <style jsx>{`
+      <style >{`
         @keyframes fill90 {
           from { width: 0%; }
           to { width: 90%; }

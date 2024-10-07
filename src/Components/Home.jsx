@@ -15,7 +15,7 @@ const Home = () => {
     <section id='home'>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white px-4 sm:px-6 md:px-8 lg:px-12">
       <img 
-        src="/Profile.jpeg"
+        src="/Profile1.jpeg"
         alt="Your Name"
         className="w-32 h-32 sm:w-40 sm:h-40 md:w-60 md:h-60 lg:w-80 lg:h-80 rounded-full object-cover mb-6"
       />

@@ -3,27 +3,27 @@ import React from 'react';
 const projectsData = [
   {
     title: 'Project 1',
-    imageUrl: 's3.png', // Replace with your image URL
+    imageUrl: 's3.png',
   },
   {
     title: 'Project 2',
-    imageUrl: 's1.png', // Replace with your image URL
+    imageUrl: 's1.png',
   },
   {
     title: 'Project 3',
-    imageUrl: 's2.png', // Replace with your image URL
+    imageUrl: 's2.png',
   },
   {
     title: 'Project 4',
-    imageUrl: 's4.png', // Replace with your image URL
+    imageUrl: 's4.png',
   },
   {
     title: 'Project 5',
-    imageUrl: 's5.png', // Replace with your image URL
+    imageUrl: 's5.png',
   },
   {
     title: 'Project 6',
-    imageUrl: 'Screenshot 2024-06-02 145236.png', // Replace with your image URL
+    imageUrl: 'Screenshot 2024-06-02 145236.png',
   },
 ];
 

@@ -11,7 +11,7 @@ const Skills = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); // Stop observing once the element is visible
+          observer.unobserve(entry.target); 
         }
       },
       { threshold: 0.1 }
@@ -40,14 +40,14 @@ const Skills = () => {
     };
   }, []);
 
-  // Skill data with corresponding percentages
+
   const codingSkillsData = [
-    { name: 'HTML', percentage: 90 },
-    { name: 'CSS', percentage: 90 },
-    { name: 'JavaScript', percentage: 85 },
-    { name: 'Tailwind CSS', percentage: 80 },
-    { name: 'React', percentage: 70 },
-    { name: 'Redux', percentage: 75 },
+    { name: 'Python', percentage: 75 },
+    { name: 'SQL', percentage: 90 },
+    { name: 'Power Bi', percentage: 95 },
+    { name: 'Tableau', percentage: 80 },
+    { name: 'Excel', percentage: 90 },
+    { name: 'Pandas', percentage: 75 },
   ];
 
   const communicationSkillsData = [
@@ -71,7 +71,7 @@ const Skills = () => {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-12">
-          {/* Coding Skills */}
+          
           <div
             ref={codingSkillsRef}
             className={`flex-1 transition-transform duration-1000 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-100px] opacity-0'}`}
@@ -98,7 +98,7 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Communication Skills */}
+        
           <div
             ref={communicationSkillsRef}
             className={`flex-1 transition-transform duration-1000 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[100px] opacity-0'}`}

@@ -1,9 +1,9 @@
 const sendMail = (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
   
-    const serviceID = 'service_0n1o8ve'; // Replace with your actual Service ID
-    const templateID = 'template_t368e9i'; // Replace with your actual Template ID
-    const userID = 'user_1234567890abcdef'; // Replace with your actual User ID (Public Key)
+    const serviceID = 'service_7qwbtbt'
+    const templateID = 'template_i8xym7z'; 
+    const userID = 'gTT-ar-2G-y53Lbty'
   
     emailjs.send(serviceID, templateID, formData, userID)
       .then((res) => {

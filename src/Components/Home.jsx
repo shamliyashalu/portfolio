@@ -24,10 +24,10 @@ const Home = () => {
       </h1>
       <div className="text-center">
         <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-4 ${step === 0 ? 'typing-container' : 'hidden'}`}>
-          Hi, I'm <span className="font-bold text-white">Midhun T</span>.
+          Hi, I'm <span className="font-bold text-white">Shamliya P</span>.
         </p>
         <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-4 ${step === 1 ? 'typing-container' : 'hidden'}`}>
-          I'm a passionate Frontend Developer with experience in React, Redux, and Tailwind CSS.
+          I'm a passionate Data Analyst  with experience in Python, Sql,Power BI and Tableau
         </p>
         <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-4 ${step === 2 ? 'typing-container' : 'hidden'}`}>
           I'm a Freelancer.

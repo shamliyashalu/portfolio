@@ -15,10 +15,10 @@ const About = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); // Stop observing once the element is visible
+          observer.unobserve(entry.target); 
         }
       },
-      { threshold: 0.1 } // Adjust threshold as needed
+      { threshold: 0.1 } 
     );
 
     if (imageRef.current) {
@@ -74,8 +74,8 @@ const About = () => {
         <h1
           ref={headingRef}
           className={`text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center transition-transform duration-1500 ease-in-out transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-[-50px] opacity-0'} text-dark-blue border-b-4 border-dark-blue pb-2`}
-          style={{ color: '#003366' }} // Dark blue color
-        >
+          style={{ color: '#003366' }} 
+          >
           About Me
         </h1>
         <div className="flex flex-col lg:flex-row items-center lg:items-start">
@@ -84,7 +84,7 @@ const About = () => {
             className={`relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 transition-transform duration-1500 ease-in-out transform ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-100px] opacity-0'} rounded-lg overflow-hidden shadow-lg bg-white`}
           >
             <img
-              src="/Profile1.jpeg" // Ensure correct path
+              src= '/Profile2.jpg'
               alt="Your Name"
               className="w-full h-full object-cover"
             />
@@ -123,11 +123,11 @@ const About = () => {
                 Contact Details
               </h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/midhun-t-/" className="text-blue-600 underline">https://www.linkedin.com/in/midhun-t-/</a></li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Phone:</strong> 7994099023</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>City:</strong> Calicut</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Qualification:</strong> BCA</li>
-                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Email:</strong> <a href="midhunofficial7994@gmail.com" className="text-blue-600 underline">midhunofficial7994@gmail.com</a></li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shamliya-shalu/" className="text-blue-600 underline">https://www.linkedin.com/in/midhun-t-/</a></li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Phone:</strong> 9846898429</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>City:</strong> Malappuram</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Qualification:</strong> BSC Chemistry</li>
+                <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Email:</strong> <a href="shamliyashalu@gmail.com" className="text-blue-600 underline">shamliyashalu@gmail.com</a></li>
                 <li className={`transition-transform duration-1500 ease-in-out ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}><strong>Freelance:</strong> Available for freelance projects</li>
               </ul>
             </div>

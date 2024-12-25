@@ -17,9 +17,9 @@ const Contact = () => {
   const sendMail = (e) => {
     e.preventDefault();
 
-    const serviceID = 'service_0n1o8ve'; // Replace with your actual Service ID
-    const templateID = 'template_t368e9i'; // Replace with your actual Template ID
-    const userID = 'wmLjfu3qE9t9aqnSH'; // Replace with your actual User ID (Public Key)
+    const serviceID = 'service_7qwbtbt'; // Replace with your actual Service ID
+    const templateID = 'template_i8xym7z'; // Replace with your actual Template ID
+    const userID = 'gTT-ar-2G-y53Lbty'; // Replace with your actual User ID (Public Key)
 
     const templateParams = {
       from_name: formData.name,
